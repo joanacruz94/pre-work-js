@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Neucha", cursive;
+  margin: 0;
+  padding: 5em 0 2em;
+  text-align: center;
+  background-size: 2.8em 2.8em;
+  background-color: lightblue;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+  padding: 50px;
+}
+
+.calculator {
+  font-size: 28px;
+  margin: 0 auto;
+  width: 10em;
+}
+
+.viewer {
+  float: left;
+  line-height: 3em;
+  text-align: right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 7.5em;
+  height: 3em;
+}
+
+button {
+  border: 0;
+  background: rgba(42, 50, 113, 0.28);
+  color: black;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  margin: 0.25em;
+  width: 2em;
+  height: 2em;
+  transition: all 0.5s;
+}
+
+.reset {
+  color: black;
+  font-weight: 400;
+  margin-left: -77px;
+  padding: 0.5em 1em;
+  position: absolute;
+  top: -20em;
+  left: 50%;
+  width: auto;
+  height: auto;
+}
+
+@media (min-width: 420px) {
+  .calculator {
+    width: 12em;
+  }
+  .viewer {
+    width: 8.5em;
+  }
+  button {
+    margin: 0.5em;
+  }
+}
